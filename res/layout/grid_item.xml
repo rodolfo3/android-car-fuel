@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:orientation="vertical"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent">
+
+         <TextView android:id="@+id/date"
+             android:text="row_id"
+             android:layout_height="fill_parent"
+             android:layout_width="fill_parent"
+             android:textSize="25sp"
+         />
+
+         <TextView android:id="@+id/liters"
+             android:text="row_id"
+             android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+         />
+
+         <TextView android:id="@+id/cost"
+             android:text="row_id"
+             android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+         />
+
+         <TextView android:id="@+id/km"
+             android:text="row_id"
+             android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+         />
+
+         <View
+            android:layout_height="2dip"
+            android:layout_width="fill_parent"
+            android:background="#2B497B"></View>
+
+</LinearLayout>

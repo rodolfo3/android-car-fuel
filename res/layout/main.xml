@@ -17,5 +17,32 @@
     android:id="@+id/add"
     android:text="Add" />
 
+
+    <!--
+    <LinearLayout android:id="@+id/header"
+            android:background="#ff347c12"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+        >
+        <TextView android:id="@+id/item1"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:width="20dip"
+            android:height="30dip"
+        />
+    </LinearLayout>
+    -->
+
+    <LinearLayout android:id="@+id/body"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+        >
+        <ListView android:id="@+id/listview"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+        </ListView>
+
+    </LinearLayout>
+
 </LinearLayout>
 

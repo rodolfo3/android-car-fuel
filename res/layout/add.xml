@@ -26,12 +26,12 @@
             android:stretchColumns="*"
             >
 
+            <!-- Date -->
             <TableRow
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:gravity="center_horizontal"
                 >
-                <!-- Date -->
 
                 <TextView
                     android:layout_width="fill_parent"
@@ -49,8 +49,73 @@
             </TableRow>
 
             <!-- Liters/gallons -->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Liters"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/liters"
+                />
+
+            </TableRow>
+
             <!-- cost (R$/US$) -->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cost"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/cost"
+                />
+
+            </TableRow>
+
             <!-- KM -->
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KM"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/km"
+                />
+
+            </TableRow>
             <!-- Fuel -->
             <!-- Gas Station -->
 

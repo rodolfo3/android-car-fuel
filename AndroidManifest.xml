@@ -3,7 +3,9 @@
       package="organizer.CarFuel"
       android:versionCode="1"
       android:versionName="1.0">
-    <application android:label="@string/app_name" android:icon="@drawable/icon">
+    <application android:label="@string/app_name"
+            android:icon="@drawable/icon"
+            android:name=".CarFuelApp">
         <activity android:name="CarFuel"
                   android:label="@string/app_name">
             <intent-filter>
@@ -11,5 +13,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Add"
+                  android:label="@string/app_name">
+        </activity>
     </application>
-</manifest> 
+</manifest>
